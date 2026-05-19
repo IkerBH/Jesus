@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#F5F5F5">
+
+    <!-- Botón para iniciar la jornada laboral -->
+    <Button
+        android:id="@+id/btnFichar"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:text="INICIAR JORNADA"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:elevation="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnFichar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Presiona para registrar tu entrada"
+        android:textColor="#666666"
+        android:textSize="14sp" />
+
+</RelativeLayout>
